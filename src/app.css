@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.flex {
+    display: flex;
+    width: 1400px;
+    justify-content: space-between;
+}
+.App {
+    text-decoration: none;
+    min-height: 100vh;
+    background: #b5c0c7;
+}
+.container {
+    box-sizing: border-box;
+    padding: 30px;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+.questions_start {
+    font-family: TBC Contractica CAPS;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: lowercase;
+    font-feature-settings: "case" on;
+    color: #232323;
+}
+.header_paragraph {
+    font-family: Anonymous Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: right;
+    color: #232323;
+}
+.name_input {
+    padding: 0 0 50px 0;
+}
+.red_text {
+    text-align: center;
+    font-family: Helvetica Neue LT GEO;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #f15524;
+    margin-top: 10px;
+}
+.input_paragraph {
+    padding-bottom: 10px;
+    font-family: Helvetica Neue LT GEO;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    font-feature-settings: "cpsp" on;
+    color: #232323;
+}
+.small_text_input {
+    background: #b5c0c7;
+    width: 500px;
+    height: 50px;
+    border: 0.8px solid #232323;
+    box-sizing: border-box;
+    padding: 10px 20px;
+}
+.required {
+    margin: 100px 0 0 0;
+    width: 300px;
+}
+.required p {
+    font-family: Helvetica Neue LT GEO;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #626262;
+}
+.auth_img {
+    margin-bottom: 200px;
+    position: absolute;
+    width: 600px;
+    height: 75px;
+    background-image: url("./img/yellowEyes.png");
+}
+.covid_paragraph {
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.covid_inputs {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.covid_img {
+    margin: -70px 0;
+}
+.covid_form {
+    min-width: 575px;
+}
+.covid_form_insideForm {
+    margin-top: 40px;
+}
+.links {
+    margin-top: 20px;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: space-around;
+}
+.radio_margin {
+    margin-left: 15px;
+}
+.advice_paragraph {
+    font-family: Helvetica Neue LT GEO;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 27px;
+    font-feature-settings: "cpsp" on;
+    color: #232323;
+}
+textarea {
+    border: 0.8px solid #232323;
+    box-sizing: border-box;
+    width: 622px;
+    height: 180px;
+    resize: none;
+    padding: 10px;
+}
+button {
+    margin: 55px 0 0 455px;
+    cursor: pointer;
+    padding: 17px 30px;
+    background: #208298;
+    border-radius: 42px;
+    font-family: TBC Contractica CAPS;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+    border: none;
+}
+.global_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.black {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+    background: #232323;
+}
+.thx_p {
+    font-family: TBC Contractica CAPS;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 77px;
+    letter-spacing: 0.24em;
+    color: #ffffff;
+}
+.big_star {
+    margin-bottom: 31px;
+    margin-right: 300px;
+    width: 52px;
+    height: 52px;
+}
+.small_star {
+    width: 32px;
+    height: 32px;
+    margin-top: 2px;
+    margin-left: 300px;
+}
+.not_ready_img {
+    color: #8d8d8d;
+    opacity: 0.3;
+}
+.not_ready_paragraph {
+    font-family: Helvetica Neue LT GEO;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #8d8d8d;
+}
+.opacity {
+    opacity: 0.4;
+}
